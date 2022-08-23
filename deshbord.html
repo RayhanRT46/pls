@@ -1,0 +1,1177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--bootstrap 5.2.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/deshbord.css">
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+
+<body>
+    <!--header-->
+    <header class="headerBox">
+        <!--logo-->
+        <div class="logo">
+            <a class=" logoImag" href="home.html">
+                <img class="pcLogo" src="image/white-logo.png" alt="">
+                <img class="phoneLogo" src="image/logo.png" alt="">
+            </a>
+        </div>
+
+        <!-- menu link -->
+        <div class="midMenu">
+            <ul>
+                <li>
+                    <a class="active" href="home.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        Home </a>
+                </li>
+                <li>
+                    <a class="active" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        How it Work's </a>
+                </li>
+                <li>
+                    <a class="active" href="menu.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        On The Menu </a>
+                </li>
+                <li>
+                    <a class="active" href="ourPlan.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        Our Plans </a>
+                </li>
+                <li class="dropdownSection">
+                    <a class="dropdown-toggle" href="market.html" data-bs-toggle="dropdown" aria-expanded="false">
+                        Market
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdownShow"
+                        aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="market.html">Action</a></li>
+                        <li><a class="dropdown-item" href="market.html">Another action</a></li>
+                        <li><a class="dropdown-item" href="market.html">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--Social Menu-->
+        <div class="socialMenu">
+            <!--Profile Icon-->
+            <ul class="">
+                <li class="">
+                    <!-- Deshbord Icon -->
+                    <a class=" p-2" href="deshbord.html" target="_blank" rel="noopener" aria-label="Slack">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a>
+                </li>
+                <!--Card Icon-->
+
+                <li class="">
+                    <a class=" p-2" href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg></a>
+                </li>
+                <!--Translate Icon-->
+
+                <li class="">
+                    <a class=" p-2" href="#" target="_blank" rel="noopener" aria-label="GitHub"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-translate" viewBox="0 0 16 16">
+                            <path
+                                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--Deshbord content-->
+    <div class="container headerMargin">
+        <div class="row">
+            <div class="dashboard">
+
+                <!-- left side bar -->
+
+                <div class="colWidth">
+                    <div class="dashboardLeft">
+                        <div class="UserInfo">
+                            <div>
+                                <img class="userAvatar" src="./images/userImg.png" alt="User Avatar">
+                            </div>
+                            <div>
+                                <h2 class="userName">Hello Ali,</h2>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs dasNavTab">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#dashboard"
+                                    data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                        fill="currentColor" class="bi bi-columns-gap" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
+                                    </svg>Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile" data-bs-toggle="tab"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-person" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                    </svg>Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#myOrders" data-bs-toggle="tab"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-box-seam" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                                    </svg>My Orders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#myRecipes" data-bs-toggle="tab"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg>My Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#deliveryInformation" data-bs-toggle="tab"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-bicycle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+                                    </svg>Delivery
+                                    Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right side -->
+
+                <div class="tab-content dashTabContent">
+                    <!-- Dashboard -->
+                    <div class="tab-pane active" id="dashboard">
+                        <div class="colRight">
+                            <div class="tabPaneCol1">
+                                <h3>Weekly Specials</h3>
+                                <img src="./images/snack.png" alt="Snack Image">
+                                <p>Double Chocolate Cookie</p>
+                                <img src="./images/snack.png" alt="Snack Image">
+                                <p>Double Chocolate Cookie</p>
+                                <img src="./images/snack.png" alt="Snack Image">
+                                <p>Double Chocolate Cookie</p>
+                            </div>
+                            <div class="tabPaneCol2">
+                                <div class="col2Text">
+                                    <h2>My Subscriptions</h2>
+                                    <div class="infoIconDiv">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-info-circle-fill infoIcon"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col2Content">
+                                    <div class="contentDiv1">
+                                        <h1>2</h1>
+                                        <p>Subscriptions</p>
+                                    </div>
+                                    <div class="contentDiv2">
+                                        <p>Next Delivery</p>
+                                        <h2>May 26</h2>
+                                    </div>
+                                </div>
+                                <div class="col2Btns">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary renewBtn" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Renew Subscription
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade dashModal" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content dashModalContent">
+                                                <div class="modal-header dashModalHeader">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Renew your
+                                                        Subscription</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body dashModalBody">
+                                                    <h6>Keto Plan</h6>
+                                                    <p>Ali Saleh Home 1</p>
+                                                    <img src="./images//shopingBag.png" alt="Shopping bag image">
+                                                    <p>Total Price</p>
+                                                    <h1>1,248.10<span>SAR</span></h1>
+                                                    <div class="modalToggle">
+                                                        <!-- <p>Auto Renewal</p> -->
+                                                        <div class="form-check form-switch">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="flexSwitchCheckDefault">
+                                                            <label class="form-check-label"
+                                                                for="flexSwitchCheckDefault">Auto Renewal</label>
+                                                        </div>
+                                                    </div>
+                                                    <button class="renewBtn">Renew subscription</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Manage Subscriptions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Profile -->
+                    <div class="tab-pane" id="profile">
+                        <div class="userProfile">
+                            <div class="userProfileLeft">
+                                <h3>My Profile</h3>
+                                <img src="./images/userImgBig.png" alt="User Profile Image">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Name</th>
+                                            <td>Hello Ali</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mobile Number</th>
+                                            <td>966564372086</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Email Address</th>
+                                            <td>alithemrali@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">City</th>
+                                            <td>Active</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Date of Birth</th>
+                                            <td>08 / 10 / 1984</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button>Edit</button>
+                            </div>
+                            <div class="userProfileRight">
+                                <div class="membershipID">
+                                    <p>Membership ID</p>
+                                    <h2>11067</h2>
+                                </div>
+                                <div class="loyalityPoints">
+                                    <p>LOYALTY POINTS</p>
+                                    <div class="pointRound">
+                                        <h3>501</h3>
+                                        <p>Points</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- My Orders -->
+                    <div class="tab-pane" id="myOrders">
+                        <div class="myOrders">
+                            <div class="myOrdersLeft">
+                                <h2>Active Order</h2>
+                                <p>Keto Plan</p>
+                                <img src="./images/shopingBag.png" alt="Shopping bag image">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Start Date</th>
+                                            <td>26/05/2022</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Order Number</th>
+                                            <td>11786</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Status</th>
+                                            <td>Active</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Plan Period</th>
+                                            <td>4 weeks</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <div class="ordersBtn">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#pauseModal">
+                                        Pause
+                                    </button>
+
+                                    <!-- Pause Modal -->
+                                    <div class="modal modalwithCss fade pauseModal" id="pauseModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered pauseModalAlign">
+                                            <div class="modal-content pauseModalContent">
+                                                <div class="modal-header pauseModalHeader">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Pause Your
+                                                        Subscription</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <!--Caleandar-->
+                                                <div class="CalendarBg">
+                                                    <div class="col-md-12">
+                                                        <div class="calendar-section">
+                                                            <div class="row calendarAlign">
+                                                                <!--First calendear-->
+                                                                <div class="shadow col-md-5">
+                                                                    <div class="calendar calendar-first"
+                                                                        id="calendar_first">
+                                                                        <div class="calendar_header">
+                                                                            <button class="switch-month switch-left">
+                                                                                <i class="fa fa-chevron-left"></i>
+                                                                            </button>
+                                                                            <h2></h2>
+                                                                            <button class="switch-month switch-right">
+                                                                                <i class="fa fa-chevron-right"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="calendar_weekdays">
+                                                                        </div>
+                                                                        <div class="calendar_content">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="1" style="width: 10px !important;"></div>
+                                                                <!--Secand calendear-->
+                                                                <div class=" shadow  col-md-5">
+
+                                                                    <div class="calendar calendar-second"
+                                                                        id="calendar_second">
+                                                                        <div class="calendar_header">
+                                                                            <button class="switch-month switch-left">
+                                                                                <i class="fa fa-chevron-left"></i>
+                                                                            </button>
+                                                                            <h2></h2>
+                                                                            <button class="switch-month switch-right">
+                                                                                <i class="fa fa-chevron-right"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="calendar_weekdays">
+                                                                        </div>
+                                                                        <div class="calendar_content">
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--End Calendar-->
+                                                    <div class="row calendarBootom">
+                                                        <div class="col-3">
+                                                            <h2>From</h2>
+                                                            <p>27/06/2022</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <h2>To</h2>
+                                                            <p>27/06/2022</p>
+                                                        </div>
+                                                        <div class="col-6  subscriptionButtonPause">
+                                                            <button>Pause Subscrition</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <button>Pause</button> -->
+                                    <button>Edit</button>
+                                </div>
+
+                            </div>
+                            <div class="myOrdersRight">
+                                <h3>Order History</h3>
+                                <p>Order Number<span>Order Date</span></p>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed accordionBtn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="itemId">456723</div>
+                                                    <div>26/05/2022</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body accordionBody">
+                                                <div class="myOrdersRight">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Start Date</th>
+                                                                <td>26/05/2022</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Number</th>
+                                                                <td>11786</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Status</th>
+                                                                <td>Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Plan</th>
+                                                                <td>KETO</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header" id="flush-headinTwo">
+                                            <button class="accordion-button collapsed accordionBtn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="itemId">659783</div>
+                                                    <div>26/06/2022</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body accordionBody">
+                                                <div class="myOrdersRight">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Start Date</th>
+                                                                <td>26/05/2022</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Number</th>
+                                                                <td>11786</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Status</th>
+                                                                <td>Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Plan</th>
+                                                                <td>KETO</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed accordionBtn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="itemId">346038</div>
+                                                    <div>26/07/2022</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body accordionBody">
+                                                <div class="myOrdersRight">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Start Date</th>
+                                                                <td>26/05/2022</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Number</th>
+                                                                <td>11786</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Status</th>
+                                                                <td>Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Plan</th>
+                                                                <td>KETO</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header" id="flush-headingFour">
+                                            <button class="accordion-button collapsed accordionBtn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false" aria-controls="flush-collapseFour">
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="itemId">456008</div>
+                                                    <div>26/08/2022</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body accordionBody">
+                                                <div class="myOrdersRight">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Start Date</th>
+                                                                <td>26/05/2022</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Number</th>
+                                                                <td>11786</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Status</th>
+                                                                <td>Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Plan</th>
+                                                                <td>KETO</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header" id="flush-headingFive">
+                                            <button class="accordion-button collapsed accordionBtn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                                aria-expanded="false" aria-controls="flush-collapseFive">
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="itemId">098573</div>
+                                                    <div>26/09/2022</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body accordionBody">
+                                                <div class="myOrdersRight">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Start Date</th>
+                                                                <td>26/05/2022</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Number</th>
+                                                                <td>11786</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Status</th>
+                                                                <td>Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Order Plan</th>
+                                                                <td>KETO</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- My Recipes -->
+                    <div class="tab-pane" id="myRecipes">
+                        <div class="myRecipe">
+                            <p>My Recipes</p>
+                            <div class="recipeItems">
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button type="button" class="btn btn-primary changeRecipeBtn"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            Change Recipe
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered changeRecipeModalDialog">
+                                                <div class="modal-content recipeModalContent">
+                                                    <div class="modal-header recipeModalHeader">
+                                                        <button class="saveChangeBtn">Save Changes</button>
+                                                        <button type="button" class="btn-close btnClose"
+                                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body recipeModalBody">
+                                                        <div class="changeRecipeHead">
+                                                            <div>
+                                                                <img src="./images/fishPlate.png"
+                                                                    alt="Fish Plane image">
+                                                            </div>
+                                                            <div class="changeRecipeTitle">
+                                                                <p>Grilled<br> Salmon</p>
+                                                                <div class="qualities">
+                                                                    <div class="qualityItem">
+                                                                        <h5>120</h5>
+                                                                        <p>Calories</p>
+                                                                    </div>
+                                                                    <div class="qualityItem">
+                                                                        <h5>60g</h5>
+                                                                        <p>Fat</p>
+                                                                    </div>
+                                                                    <div class="qualityItem">
+                                                                        <h5>98g</h5>
+                                                                        <p>Protein</p>
+                                                                    </div>
+                                                                    <div class="qualityItem">
+                                                                        <h5>5g</h5>
+                                                                        <p>Sugar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="changeRecipeCards">
+                                                            <div class="recipeItem">
+                                                                <div class="recipeCard">
+                                                                    <img src="./images/foodPlate.png"
+                                                                        alt="Food Plate image">
+                                                                    <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                                                    <div class="qualities">
+                                                                        <div class="qualityItem">
+                                                                            <h5>120</h5>
+                                                                            <p>Calories</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>60g</h5>
+                                                                            <p>Fat</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>98g</h5>
+                                                                            <p>Protein</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>5g</h5>
+                                                                            <p>Sugar</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recipeBtns">
+                                                                    <button>Change Recipe</button>
+                                                                    <button>View Recipe</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recipeItem">
+                                                                <div class="recipeCard">
+                                                                    <img src="./images/foodPlate.png"
+                                                                        alt="Food Plate image">
+                                                                    <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                                                    <div class="qualities">
+                                                                        <div class="qualityItem">
+                                                                            <h5>120</h5>
+                                                                            <p>Calories</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>60g</h5>
+                                                                            <p>Fat</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>98g</h5>
+                                                                            <p>Protein</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>5g</h5>
+                                                                            <p>Sugar</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recipeBtns">
+                                                                    <button>Change Recipe</button>
+                                                                    <button>View Recipe</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recipeItem">
+                                                                <div class="recipeCard">
+                                                                    <img src="./images/foodPlate.png"
+                                                                        alt="Food Plate image">
+                                                                    <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                                                    <div class="qualities">
+                                                                        <div class="qualityItem">
+                                                                            <h5>120</h5>
+                                                                            <p>Calories</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>60g</h5>
+                                                                            <p>Fat</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>98g</h5>
+                                                                            <p>Protein</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>5g</h5>
+                                                                            <p>Sugar</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recipeBtns">
+                                                                    <button>Change Recipe</button>
+                                                                    <button>View Recipe</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recipeItem">
+                                                                <div class="recipeCard">
+                                                                    <img src="./images/foodPlate.png"
+                                                                        alt="Food Plate image">
+                                                                    <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                                                    <div class="qualities">
+                                                                        <div class="qualityItem">
+                                                                            <h5>120</h5>
+                                                                            <p>Calories</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>60g</h5>
+                                                                            <p>Fat</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>98g</h5>
+                                                                            <p>Protein</p>
+                                                                        </div>
+                                                                        <div class="qualityItem">
+                                                                            <h5>5g</h5>
+                                                                            <p>Sugar</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recipeBtns">
+                                                                    <button>Change Recipe</button>
+                                                                    <button>View Recipe</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <button>Change Recipe</button> -->
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                                <div class="recipeItem">
+                                    <div class="recipeCard">
+                                        <img src="./images/foodPlate.png" alt="Food Plate image">
+                                        <p class="recipeCardTitle">Salmon Lifestyle</p>
+                                        <div class="qualities">
+                                            <div class="qualityItem">
+                                                <h5>120</h5>
+                                                <p>Calories</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>60g</h5>
+                                                <p>Fat</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>98g</h5>
+                                                <p>Protein</p>
+                                            </div>
+                                            <div class="qualityItem">
+                                                <h5>5g</h5>
+                                                <p>Sugar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipeBtns">
+                                        <button>Change Recipe</button>
+                                        <button>View Recipe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Delivery Information -->
+                    <div class="tab-pane" id="deliveryInformation">
+                        <div class="deliveryInfo">
+                            <div class="deliveryInfoLeft">
+                                <h4>Delivery Information</h4>
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                My home address 1
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <table class="table deliveryTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">House</th>
+                                                            <td>A-2655</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Road</th>
+                                                            <td>King Faisal Ibn Abd Al Aziz</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">City</th>
+                                                            <td>Al Khobar</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Neighbourhood </th>
+                                                            <td>Doha</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Zip Code</th>
+                                                            <td>34423</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Street</th>
+                                                            <td>Al Bandariyah</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Delivery Time</th>
+                                                            <td class="d-flex align-items-center gap-3">
+                                                                <div class="d-flex">
+                                                                    <div class="deliverySunBtn">
+                                                                        <a href="#" class="text-decoration-none">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="16" height="16"
+                                                                                fill="currentColor"
+                                                                                class="bi bi-brightness-high"
+                                                                                viewBox="0 0 16 16">
+                                                                                <path
+                                                                                    d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="deliveryMoonBtn">
+                                                                        <a href="#" class="text-decoration-none">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="16" height="16"
+                                                                                fill="currentColor" class="bi bi-moon"
+                                                                                viewBox="0 0 16 16">
+                                                                                <path
+                                                                                    d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="deliveryTime">
+                                                                    <h4>Morning</h4>
+                                                                    <p>8:00 am - 12:00 pm</p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliveryInfoRight">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.0141729587817!2d50.09965884913641!3d26.289176696826953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e1333e90ed51%3A0x294b6c97524030b4!2s7386%2C%204469%2C%20Gharb%20Al%20Dhahran%2C%20Dhahran%2034473%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sbd!4v1660989023927!5m2!1sen!2sbd"
+                                    width="100%" height="382" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="deliveryBtns">
+                            <button>Edit Address</button>
+                            <button>Add a New Address</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footerBox">
+        <!--Footer logo-->
+        <div class="footer-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <!--Copy Right Text-->
+        <div class="copyright-text">
+            <h3>Copyright@ pipless</h3>
+        </div>
+        <!-- Footer Social Media -->
+        <div class="footerSocialMedia">
+            <ul>
+                <Div class="footerSocialMediaText">
+                    <li><a href="#"> instagram </a></li>
+                    <li><a href="#">youtube</a></li>
+                    <li><a href="#"> twitter</a></li>
+                </Div>
+                <div class="footerSocialMediaIcon">
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a></li>
+                    <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg></a></li>
+                    <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!--Bootstraps Script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!--Caleandar-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

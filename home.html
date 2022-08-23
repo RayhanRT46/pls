@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prpless</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap 5.2.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!--Link Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="headerBox">
+        <!--logo-->
+        <div class="logo">
+            <a class=" logoImag" href="home.html">
+                <img class="pcLogo" src="image/white-logo.png" alt="">
+                <img class="phoneLogo" src="image/logo.png" alt="">
+            </a>
+        </div>
+
+        <!-- menu link -->
+        <div class="midMenu">
+            <ul>
+                <li>
+                    <a class="active" href="home.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        Home </a>
+                </li>
+                <li>
+                    <a class="active" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        How it Work's </a>
+                </li>
+                <li>
+                    <a class="active" href="menu.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        On The Menu </a>
+                </li>
+                <li>
+                    <a class="active" href="ourPlan.html"
+                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">
+                        Our Plans </a>
+                </li>
+                <li class="dropdownSection">
+                    <a class="dropdown-toggle" href="market.html" data-bs-toggle="dropdown" aria-expanded="false">
+                        Market
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdownShow"
+                        aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="market.html">Action</a></li>
+                        <li><a class="dropdown-item" href="market.html">Another action</a></li>
+                        <li><a class="dropdown-item" href="market.html">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--Social Menu-->
+        <div class="socialMenu">
+            <!--Profile Icon-->
+            <ul class="">
+                <li class="">
+                    <!-- Deshbord Icon -->
+                    <a class=" p-2" href="deshbord.html" target="_blank" rel="noopener" aria-label="Slack">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a>
+                </li>
+                <!--Card Icon-->
+
+                <li class="">
+                    <a class=" p-2" href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg></a>
+                </li>
+                <!--Translate Icon-->
+
+                <li class="">
+                    <a class=" p-2" href="#" target="_blank" rel="noopener" aria-label="GitHub"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-translate" viewBox="0 0 16 16">
+                            <path
+                                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--content-->
+    <section class="content">
+        <!--hero-banner-->
+        <div class="container">
+            <div class="row headerMargin">
+                <div class="col row-cols-auto heroImageArea">
+                    <div id="photoa" class="hero-image"><img src="images/hero-img.png" alt="hero-image"></div>
+                    <div id="photob" class="hero-image" style="display: none;"><img src="images/herophot1.png"
+                            alt="hero-image">
+                    </div>
+                    <div id="photoc" class="hero-image" style="display: none;"><img src="images/herophoto2.png"
+                            alt="hero-image">
+                    </div>
+                    <div id="photod" class="hero-image" style="display: none;"><img src="images/hero photo3.png"
+                            alt="hero-image">
+                    </div>
+                </div>
+                <div class="col row-cols-auto hero-textarea">
+                    <div class="container">
+                        <p class="row">Awaken the chef inside you !
+                        </p>
+                        <h2 class="row" style="color: white;">GOURMET MEALS <br>| YOU !</h2>
+                        <div class="row">
+                            <div id="buttonfocus" onclick="backgroundColor(1)" class="col-8 hero-focuslink">
+                                <a class="hero-focusl" onclick="openphoto('photoa')">Meat Lovers<br>
+                                    <span class="hero-focusbr">Meat pasta</span>
+                                </a>
+                                <a class="hero-focusl" onclick="openphoto('photob')">Keto
+                                    Friendly<br>
+                                    <span class="hero-focusbr">Chicken Quesdilla</span>
+                                </a>
+                                <a class="hero-focusl" onclick="openphoto('photoc')">15min Meals
+                                    <br>
+                                    <span class="hero-focusbr">Cheese Cake</span>
+                                </a>
+                                <a class="hero-focusl" onclick="openphoto('photod')">Vegi
+                                    <br>
+                                    <span class="hero-focusbr">Ceasar Salad</span>
+                                </a>
+                            </div>
+                            <div class="col col-sm-4 mt-auto"><a class="View">View Our<br>Packages</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!--section-tow-->
+        <div class="container"></div>
+        <div class="sectionTow row row-cols-auto">
+            <img class="sectionTowCoverPhoto" src="images/sectiontow.jpg" alt="coverphoto">
+            <div class="sectionTow-Text" style="width: 45vw;">
+                <h3 style="color: #396765; font-weight:bold ;">HOW IT WORKS</h3>
+                <p>Leave the tedious work to us while you focus
+                    on
+                    the true joys of whipping up a home-cooked meal.</p>
+                <img src="images/errorup.png" alt="">
+            </div>
+        </div>
+
+
+
+
+        <!--section-three-->
+        <div class="container section-three">
+            <div class="row">
+                <div class="col-md">
+                    <h2 class=" section-threeTop1">ON THE MENU</h2>
+                </div>
+                <div class="col-md section-threeTop2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col section-threeTop2Left"><img src="images/herophoto2.png" alt=""></div>
+                            <div class="col section-threeTop2Right">
+                                <div class="row section-threeTop2RightTim">
+                                    <div class="section-threeTop2RightTime">
+                                        <p> <img src="images/timeicon.png" alt=""> 30 MIN</p>
+                                    </div>
+                                </div>
+                                <div class="row ml-auto section-threeTop2RightTital"><a href="">GRILLED SALMON</a></div>
+                                <div class="row section-threeTop2RightSize">
+                                    <h4 class="col-3">120<br> <span class="section-threeTop2RightSizeS">Calories</span>
+                                    </h4>
+                                    <h4 class="col-2">60g<br><span class="section-threeTop2RightSizeS">Fat</span></h4>
+                                    <h4 class="col-3">98g<br><span class="section-threeTop2RightSizeS">Protein</span>
+                                    </h4>
+                                    <h4 class="col-2">5g<br><span class="section-threeTop2RightSizeS">Sugar</span></h4>
+                                </div>
+                                <div class="section-threeTop2RightImg">
+                                    <img src="images/flowericon.png" alt="">
+                                    <img src="images/flowericon.png" alt="">
+                                    <img src="images/flowericon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="section-threeBotomProductList">
+                        <div class="section-threeBotomProduct">
+                            <div class="section-threeBotomProductPhoto"><img src="images/herophoto2.png" alt="">
+                            </div>
+                            <div class="section-threeBotomProductPhotoTital"><a href="">GRILLED SALMON</a></div>
+                            <div class="section-threeBotomProductSize">
+                                <h4>120<br> <span class="section-threeBotomProductSizeS">Calories</span></h4>
+                                <h4>60g<br><span class="section-threeBotomProductSizeS">Fat</span></h4>
+                                <h4>98g<br><span class="section-threeBotomProductSizeS">Protein</span></h4>
+                                <h4>5g<br><span class="section-threeBotomProductSizeS">Sugar</span></h4>
+                            </div>
+                        </div>
+                        <div class="section-threeBotomProductButton">
+                            <button style="margin-bottom: 50px;">View Recipe </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiperPagination">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!--End section-three-->
+
+        </div>
+        <!--section-four-->
+        <div class="section-four">
+            <h3>COOK IT. LOVE IT. TAG IT</h3>
+            <h3>#PRPLESS</h3>
+            <div class="section-fourImg">
+                <img src="images/img1.png" alt="">
+                <img src="images/img2.png" alt="">
+                <img src="images/img1.png" alt="">
+            </div>
+            <p>Follow us on Instagram @prpless.sa</p>
+        </div>
+        <!--section-five-->
+        <div class="container section-fivecontainer">
+            <h2 class="row section-five">ADD TREATS TO YOUR TABLE</h2>
+            <div class="section-fiveGallery">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="section-fiveSingelProduct">
+                                <img class="section-fiveProductPhoto" src="images/hero photo3.png" alt="">
+                                <h4>OLIVE OIL</h4>
+                                <div class="section-fiveStaRating">
+                                    <h4>Jordainian olive oil</h4>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <h4><span class="section-fiveProductPrice">35</span>SR</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiperPagination">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--footer-->
+
+    <div class="footerBox">
+        <!--Footer logo-->
+        <div class="footer-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <!--Copy Right Text-->
+        <div class="copyright-text">
+            <h3>Copyright@ pipless</h3>
+        </div>
+        <!-- Footer Social Media -->
+        <div class="footerSocialMedia">
+            <ul>
+                <Div class="footerSocialMediaText">
+                    <li><a href="#"> instagram </a></li>
+                    <li><a href="#">youtube</a></li>
+                    <li><a href="#"> twitter</a></li>
+                </Div>
+                <div class="footerSocialMediaIcon">
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a></li>
+                    <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg></a></li>
+                    <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <!--bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main.json"></script>
+</body>
+
+</html>
