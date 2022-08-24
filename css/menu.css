@@ -1,0 +1,228 @@
+/* Banner section of page 2 */
+body {
+    background-color: white;
+}
+
+.bannerHead {
+    font-size: 77px;
+    font-weight: 400;
+    color: #69745D;
+    letter-spacing: 5px;
+    margin-top: 250px;
+    margin-bottom: 80px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ECA363;
+}
+
+.nav-tabs .nav-link {
+    color: #ECA363;
+    font-weight: 100;
+    font-size: 26px;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    color: #ECA363;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 5px solid #ECA363;
+    line-height: 34px;
+}
+
+.tabContent {
+    font-size: 20px;
+    color: #707070;
+}
+
+.divider {
+    width: 90%;
+    height: 5px;
+    background-color: #D9B16B;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Recipe section */
+
+.eatMoreHead {
+    color: #ECA363;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+
+.getBtn {
+    background-color: #ECA363;
+    color: #fff;
+    padding: 5px 20px 12px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.getBtn:hover {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+.getBtn:focus {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+.getBtn2 {
+    background-color: #ECA363;
+    color: #fff;
+    padding: 5px 20px 12px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 175px;
+    text-align: center;
+}
+
+.getBtn2:hover {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+.getBtn2:focus {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+.card {
+    box-shadow: 1px 2px 5px #888888;
+}
+
+.card-title {
+    color: #738371;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-text {
+    color: #D9B16B;
+    font-size: 13px;
+    line-height: 0%;
+}
+
+.watchColor {
+    color: #ECA363;
+}
+
+.cardTime {
+    font-size: 14px;
+    color: #738371;
+    font-weight: bold;
+}
+
+.rightBorder {
+    color: #ECA363;
+    font-weight: 200;
+}
+
+.cardBtn {
+    background-color: #ECA363;
+    color: #fff;
+    font-size: 13px;
+    padding: 4px 25px;
+    border-radius: 20px;
+    border: 1px solid #ECA363;
+}
+
+.cardBtn:hover {
+    background-color: #ECA363;
+    color: #fff;
+    border: 1px solid #ECA363;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    justify-items: center;
+}
+
+@media only screen and (max-width:688px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bannerHead {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-top: 110px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+
+    .nav-tabs .nav-link.active {
+        font-size: 20px;
+        border-bottom: 4px solid #ECA363;
+        line-height: 24px;
+    }
+
+    .divider {
+        margin-top: 60px;
+    }
+
+    .eatMoreHead {
+        font-size: 24px;
+    }
+
+
+    .getBtn {
+        padding: 2px 14px 8px 14px;
+        font-size: 20px;
+    }
+
+    .getBtn2 {
+        padding: 2px 14px 8px 14px;
+        font-size: 20px;
+        width: 134px;
+    }
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bannerHead {
+        font-size: 55px;
+        letter-spacing: 4px;
+        margin-top: 140px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+
+    .nav-tabs .nav-link.active {
+        font-size: 20px;
+        border-bottom: 4px solid #ECA363;
+        line-height: 25px;
+    }
+
+    .divider {
+        margin-top: 80px;
+    }
+
+    .getBtn {
+        padding: 3px 16px 9px 16px;
+        font-size: 23px;
+    }
+
+    .getBtn2 {
+        padding: 3px 16px 9px 16px;
+        font-size: 23px;
+        width: 153px;
+    }
+}

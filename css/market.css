@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.marketPage {
+    background-color: #667058;
+}
+
+/* Banner section */
+
+.fullBanner {
+    padding: 80px 0px;
+}
+
+.bannerText {
+    color: #ECA363;
+    font-size: 57px;
+}
+
+/* Groceries section */
+
+.marketCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    justify-items: center;
+}
+
+.marketCard {
+    border-radius: 20px;
+}
+
+.cardBody {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.cardTitle {
+    color: #ECA363;
+    font-size: 34px;
+    padding-top: 40px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+/* Shop section */
+.shopText {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Newly added section */
+.dividerText {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 7px;
+}
+
+.dividerText2 {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.dividerText3 {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 40px;
+}
+
+.shopDivider {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+}
+
+.newlyCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 25px;
+    justify-items: center;
+}
+
+.newlyCard {
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+.newlyCardImg {
+    border-radius: 20px;
+}
+
+.newlyCardBody {
+    padding-top: 0;
+    border-radius: 20px;
+}
+
+.newlyCardTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #738371;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.newlyCardText {
+    font-size: 12px;
+    color: #ECA363;
+    margin: 0;
+}
+
+.newlyCardStart {
+    color: #ECA363;
+    background-color: #fff;
+}
+
+.newlyCardNum {
+    font-weight: bold;
+    color: #738371;
+    font-size: 12px;
+}
+
+
+.newlyBtn {
+    background-color: #ECA363;
+    color: #fff;
+    padding: 5px 20px 12px 20px;
+    font-size: 25px;
+    border-radius: 14px;
+    width: 147px;
+    text-align: center;
+}
+
+.newlyBtn:hover {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+.newlyBtn:focus {
+    background-color: #ECA363;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:688px) {
+    .bannerText {
+        font-size: 40px;
+    }
+
+    .marketCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newlyCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newlyBtn {
+        padding: 4px 16px 8px 16px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .marketCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .newlyCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .newlyBtn {
+        padding: 10px 20px 11px 27px;
+        font-size: 23px;
+        width: 153px;
+    }
+}
